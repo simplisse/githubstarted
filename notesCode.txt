@@ -1,0 +1,44 @@
+1. Assignment 1
+
+a = 5;
+
+
+a++; // Post increment
+++a; // Pre increment
+
+a--; // Post increment
+--a; // Pre increment
+
+
+++a++; // Both post and pre
+
+
+2. Take user name and SSN
+
+to check if SSN is 10 digit number if it is true then print user name and SSN
+					else print SSN is not valid
+
+simplissse
+try
+{
+string s = 1234567890 12346 ABCD
+int a = Int.Parse(s); // s is valid integer alphaanumeric it will fail
+
+if(s.length()==10)
+valid SSN
+
+else
+invalid SSN
+}
+catch(FormatException ex)
+{
+invalid SSN
+}
+invalid SSN
+hint : 1234544567 
+
+int.parse() - valid number    toString() String.Length=10 ...print the details
+
+string length is less than 10 or more than 10 - invalid SSN
+
+fails throws an exception - invalid SSN
