@@ -19,7 +19,7 @@ to check if SSN is 10 digit number if it is true then print user name and SSN
 					else print SSN is not valid
 
 simplissse
-try
+try catch 
 {
 string s = 1234567890 12346 ABCD
 int a = Int.Parse(s); // s is valid integer alphaanumeric it will fail
