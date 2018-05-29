@@ -13,7 +13,7 @@ a--; // Post increment
 ++a++; // Both post and pre
 
 
-2. Take user name and SSN
+2. Take user name and SSN to begin
 
 to check if SSN is 10 digit number if it is true then print user name and SSN
 					else print SSN is not valid
